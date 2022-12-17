@@ -1,0 +1,29 @@
+/* Contact Us CSS */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(200, 147, 68);
+}
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+input {
+  padding: 8px;
+  width: 400px;
+  border: 1px solid rgb(221, 159, 147);
+}
+textarea {
+  padding: 5px;
+  border: 1px solid rgb(221, 159, 147);
+}
+button {
+  background-color: rgb(250, 235, 215);
+  padding: 8px;
+}
